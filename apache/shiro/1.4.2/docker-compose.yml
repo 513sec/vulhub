@@ -1,0 +1,6 @@
+version: '2'
+services:
+ web:
+   image: comwrg/shiro:1.4.2
+   ports:
+    - "8080:8080"
