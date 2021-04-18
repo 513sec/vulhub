@@ -1,0 +1,10 @@
+---
+version: "2"
+services:
+  covenant:
+    image: xrsec/cobaltstrike:4.2
+    environment:
+      - server_ip=10.0.0.1
+      - passwd=123456
+    ports:
+      - 50050:50050
