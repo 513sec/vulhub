@@ -1,0 +1,7 @@
+---
+version: "2"
+services:
+  covenant:
+    image: star1233e/weblogic1036jdk7u21:latest
+    ports:
+      - 7001:7001
