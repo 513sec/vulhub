@@ -1,0 +1,9 @@
+version: '2'
+services:
+ web:
+   image: hyness/spring-cloud-config-server:2.1.6.RELEASE
+   ports:
+    - "8888:8888"
+   environment:
+     spring.cloud.config.server.git.uri: https://github.com/spring-cloud-samples/config-repo
+     spring.cloud.config.server.git.default-label: main
