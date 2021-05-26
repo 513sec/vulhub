@@ -1,0 +1,7 @@
+---
+version: "2"
+services:
+  covenant:
+    image: comwrg/weblogic:1036-7u21
+    ports:
+      - 7001:7001
