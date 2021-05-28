@@ -1,0 +1,8 @@
+version: '2'
+services:
+ web:
+   image: jas5o2n/centos7-fastjson1.2.68
+   command: /opt/apache-tomcat-8.5.66/bin/catalina.sh run
+   ports:
+    - "8080:8080"
+
