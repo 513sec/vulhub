@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  grafana:
+    image: grafana/grafana:8.2.0
+    ports:
+      - 3000:3000
