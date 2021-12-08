@@ -4,4 +4,4 @@ services:
   spring:
     image: comwrg/spring-boot-actuator-logview:0.2.12
     ports:
-      - 3000:8777
+      - 3000:8887
