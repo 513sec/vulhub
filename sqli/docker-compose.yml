@@ -1,0 +1,6 @@
+version: '2'
+services:
+ web:
+   image: acgpiano/sqli-labs:latest
+   ports:
+    - "8090:80"
