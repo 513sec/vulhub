@@ -1,0 +1,10 @@
+version: '2'
+services:
+ web:
+   image: bogem/ftp
+   ports:
+    - "21:21"
+   environment:
+    - PASV_ADDRESS=localhost
+    - FTP_USER=anonymous
+    - FTP_PASS=anonymous
